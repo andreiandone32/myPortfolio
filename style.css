@@ -26,12 +26,10 @@
 }
 
 body {
-  min-height: 100vh;
   background-color: var(--main-color);
   font-family: "Poppins";
   scroll-behavior: smooth;
-
-  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 a {
@@ -345,7 +343,6 @@ header {
     padding: 10px;
     font-weight: light;
     letter-spacing: 2px;
-    
   }
 
   .about-img {
@@ -427,9 +424,6 @@ header {
   text-align: center;
 }
 
-
-
-
 .card_text {
   color: var(--text-color);
   font-size: 1rem;
@@ -467,7 +461,6 @@ header {
   font-family: "montserrat";
   margin: 20px auto;
 }
-
 
 textarea {
   font-family: inherit;
@@ -615,8 +608,6 @@ color: var(--text-dark);
     margin-bottom: 0;
   }
 }
-
-
 
 /* FOOTER SECTION */
 
